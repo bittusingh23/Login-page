@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&family=Merriweather:wght@700&family=PT+Serif:wght@700&family=Poppins&family=Roboto&family=Roboto+Slab&display=swap");
+body {
+  background-color: black;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.main-page {
+  height: 450px;
+  width: 350px;
+  margin-top: 50px;
+  background-color: black;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgb(255, 195, 31), 0 0 25px rgb(255, 195, 31),
+    0 0 60px rgb(255, 195, 31);
+}
+
+/* for sign-in text div */
+.signin-text {
+  color: white;
+  font-family: poppins;
+  font-weight: 900;
+  font-size: 22px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+/* email & username section */
+.username-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.username-box {
+  width: 270px;
+  margin-top: -10px;
+  background-color: black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: poppins;
+  font-size: 14px;
+  border-color: white;
+  color: white;
+  padding: 5px;
+  padding-left: 5px;
+  outline: none;
+}
+::placeholder {
+  color: white;
+  height: 20px;
+}
+.email-username-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.email-username-box {
+  width: 270px;
+  margin-top: 20px;
+  background-color: black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: poppins;
+  font-size: 14px;
+  border-color: white;
+  color: white;
+  padding: 5px;
+  padding-left: 5px;
+  outline: none;
+}
+::placeholder {
+  color: white;
+  height: 20px;
+}
+
+/* password section styling */
+.password {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.pass {
+  width: 270px;
+  background-color: black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: poppins;
+  font-size: 14px;
+  border-color: white;
+  color: white;
+  padding: 5px;
+  padding-left: 5px;
+  outline: none;
+  margin-top: -10px;
+}
+
+/* for checkbox text section */
+.checkbox-section {
+  width: 150px;
+  height: 15px;
+}
+.main-checkbox {
+  margin-top: 30px;
+  margin-left: 38px;
+  color: black;
+  cursor: pointer;
+}
+.checkbox-text {
+  color: white;
+  font-family: poppins;
+  font-size: 12px;
+  font-weight: 100;
+  margin-left: 58px;
+  margin-top: -19px;
+  cursor: pointer;
+  width: 200px;
+}
+/* specific element for combine to each other */
+label {
+  cursor: pointer;
+}
+/* login button section */
+.login-button {
+  width: 270px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 35px;
+}
+
+.login {
+  color: black;
+  background-color: rgb(255, 196, 0);
+  border: 1px solid rgb(172, 133, 5);
+  border-radius: 50px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: poppins;
+  cursor: pointer;
+}
+
+.login:active {
+  box-shadow: 0 0 4px rgb(172, 133, 5);
+}
+
+.login-link-tag {
+  text-decoration: none;
+  color: black;
+}
+
+/* account section & sign-up section */
+.account-text,
+.link-tag {
+  color: white;
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 12px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: -2px;
+}
+.link-tag {
+  color: rgb(255, 102, 0);
+}
+
+@media only screen and (min-width: 600px) {
+  .main-page {
+    height: 400px;
+    width: 300px;
+  }
+
+  .container {
+    margin-top: 50px;
+  }
+
+  .main-checkbox {
+    margin-left: 15px;
+  }
+
+  .checkbox-text {
+    margin-left: 35px;
+  }
+
+  .login {
+    width: 270px;
+    margin-left: -20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-page {
+    height: 400px;
+    width: 300px;
+  }
+
+  .container {
+    margin-top: 50px;
+  }
+
+  .main-checkbox {
+    margin-left: 15px;
+  }
+
+  .checkbox-text {
+    margin-left: 35px;
+  }
+
+  .login {
+    width: 270px;
+    margin-left: -20px;
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login & Signup</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-page">
+        <div class="signin-text">
+          <h2>Sign-in</h2>
+        </div>
+        <div class="email-username-section">
+          <input
+            type="text"
+            placeholder=" Email or Username"
+            class="email-username-box" />
+        </div>
+
+        <div class="password">
+          <input type="password" placeholder="Password" class="pass" />
+        </div>
+        <div class="checkbox-section">
+          <input type="checkbox" class="main-checkbox" id="click" />
+          <h4 class="checkbox-text"><label for="click">Remember me</label></h4>
+        </div>
+        <div class="login-button">
+          <h2 class="login" id="login">
+            <a class="login-link-tag" href="http://127.0.0.1:5500/signup.html"
+              >Login</a
+            >
+          </h2>
+        </div>
+        <div class="account">
+          <h3 class="account-text">
+            Don't have an account?
+            <a class="link-tag" href="http://127.0.0.1:5500/signup.html"
+              >Sign-Up
+            </a>
+          </h3>
+        </div>
+      </div>
+    </div>
+    <script>
+      function showMessage() {
+        alert("Login successful");
+      }
+
+      document.getElementById("login").addEventListener("click", showMessage);
+    </script>
+  </body>
+</html>
